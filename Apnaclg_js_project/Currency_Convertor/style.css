@@ -1,0 +1,82 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.select-container{
+    display: flex;
+    
+}
+.select-container img{
+    width: 80px;
+    height: 80px;
+}
+.btn{
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+ h2{
+    font-size: 46px;
+    font-weight: 500;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    font: bold;
+    color: black;
+
+}
+.container p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+
+}
+.container input{
+    padding: 1rem;
+    border-radius: 20px;
+}
+.container input:hover{
+    width: 24rem;
+    background-color: beige;
+    border: 2px solid white;
+}
+.msg{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 2rem;
+    letter-spacing: 5px;
+
+}  
+body{
+    background-color: skyblue;
+} 
+select{
+    border-radius: 5px;
+    width: 55px;
+    height: 50px;
+    margin-top: 15px;
+    border: 2px solid black;
+    font-size: 14px;
+
+}
+select:hover{
+    opacity: 80%;
+}
