@@ -35,6 +35,8 @@ This repository is created for:
 - Practicing code with real examples
 - Building small JavaScript projects
 
-  Author: Sujit Kumar
+ Author: Sujit Kumar
+  
 📧 Contact: [sujitkrs92037@gmail.com]
+
 📍 Mangalmay Institute of Engineering and Technology, CSE 3rd Year
