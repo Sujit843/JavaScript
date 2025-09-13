@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js ecom project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- navbar section -->
+    
+    <header class="section-container">
+      <section class="top-txt">
+        <div class="head-conatainer">
+          <div class="head_txt">
+            <p>Free shipping, 30-day return or refund guarantee</p>
+          </div>
+          <div class="sign_in_up">
+            <a class="signIn" href="#">SIGN IN</a>
+            <a herf="#">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-txt">
+        <div class="bottom-container">
+          <div class="logo">
+            <img src="public/images/logo.png" alt="logo">
+          </div>
+          <div class="nav-menu">
+            <UL>
+              <li>HOME</li>
+              <li>ABOUT</li>
+              <li>PRODUCTS</li>
+              <li>CONTACT</li>
+            </ul>
+            <div class="cart-icon">
+              <a 
+              href="addToCart.html"
+              class="cart-icon add-to-cart-button"
+              id="cartValue"
+              >
+              <li id="cartValue"><i class="fa-solid fa-cart-shopping">0</i></li>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- hero section -->
+
+    <section class="hero-section">
+        <div class="hero-container">
+          <div class="All-hero-text">
+            <p>Explore the Latest in Tech Industries</p>
+            <h1>Your Destination for<br> Cutting-Edge Gadgets!</h1>
+            <p class="down-para">Welcome to Thapa eComStore, your ultimate destination for cutting-<br>
+              edge gadgets! Explore the latest in tech innovation and style with<br>
+              us. Shop now and discover a world of possibilities!</p>
+            </div>
+            <div class="hero-image">
+              <img src="public/images/heroImage.png" alt="hero Image">
+            </div>
+          </div>
+          <div class="explore-btn">
+            <button class="Btn">Explore Our Products</button>
+          </div>
+    </section>
+
+    <section class="down-hero-section">
+      <div class="features-container">
+        <div class="features1">
+          
+            <p>NEW YEAR SALE</p>
+            <h2>Get And Extra 50% Off</h2>
+            <a href="#">SHOW NOW</a>
+          <div class="feature-img">
+            <img src="public/images/laptop.png" alt="laptop">
+          </div>
+        </div>
+        <div class="features1">
+
+          <p>NEW YEAR SALE</p>
+          <h2>Get And Extra 50% Off</h2>
+          <a href="#">SHOW NOW</a>
+          <div class="feature-img">
+            <img src="public/images/headphoneEcom.png" alt="headphone">
+          </div>
+        </div>
+        <div class="features1">
+          <p>NEW YEAR SALE</p>
+          <h2>Get And Extra 50% Off</h2>
+          <a href="#">SHOW NOW</a>
+          <div class="feature-img">
+            <img src="public/images/mobiles.png" alt="mobiles">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Cart section here  -->
+
+    <section class="section-products">
+      <div class="container">
+        <div class="section-common-heading">Welcome To My store!</div>
+      </div>
+
+      <section class="container">
+        <div id="productContainer">
+
+        </div>
+      </section>
+    </section>
+
+    <!-- Start Product Template -->
+    
+    <template id="productTemplate">
+      <div class="cards" id="cardValue">
+        <article class="information [card]">
+          <span class="category"></span>
+          <div class="imageContainer">
+            <img class="productImage" src="" alt="" />
+          </div>
+          <h2 class="productName"></h2>
+
+          <div class="productRating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          <p class="productDescrption"></p>
+
+          <div class="productPriceElement">
+            <p class="productPrice"></p>
+            <p class="productActualPrice"></p>
+          </div>
+
+          <div class="productStockElement">
+            <p class="productPropert">Total Stocks Available:</p>
+            <p class="productStock"></p>
+          </div>
+
+      <div class="productQuantityElement">
+        <p class="productProperty">Quantity(Pieces)</p>
+        <div class="stockElement">
+          <button class="cartIncrement">+</button>
+          <p class="productQuantity" data-quantity="1">1</p>
+          <button class="cartDecrement">-</button>
+        </div>
+      </div>
+
+      <button class="add-to-cart-button">
+        <a href="pages/addToCart.html" id="showAddToCartCards">
+          <i class="fa-solid fa-cart-shopping"></i>Add To Cart
+        </a>
+      </button>
+    </article>
+  </div>
+    </template>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
